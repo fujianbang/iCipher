@@ -1,0 +1,27 @@
+@card-height: auto;
+@cell-width: 260px;
+
+.menu {
+    width: @cell-width;
+    float: left;
+    .ivu-card {
+        height: @card-height;
+        .ivu-card-body {
+            padding: 0px;
+        }
+    }
+}
+.content {
+    float: left;
+    width: calc(~'100% - @{cell-width}');
+    .ivu-card {
+        width: auto;
+        height: @card-height;
+        .btn-group {
+            margin-bottom: 12px;
+            Button {
+                margin-right: 20px;
+            }
+        }                
+    }
+}

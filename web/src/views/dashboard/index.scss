@@ -1,0 +1,19 @@
+.dashboard {
+    display: flex;
+    .dashboard-sidebar {
+        flex: 0 0 350px;
+        padding: 10px;
+        .ivu-card-extra {
+            top: 12px;
+        }
+    }
+    .dashboard-right {
+        flex: 1 1 auto;
+        padding: 10px;
+        .ivu-divider-horizontal {
+            margin: 14px 0 24px 0;
+        }
+    }
+}
+
+
